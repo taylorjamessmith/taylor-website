@@ -22,6 +22,22 @@ body {
   position: relative; /* For scrollspy */
 }
 
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.jumbotronDanielle {
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.image{ 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
 /* Keep code small in tables on account of limited space */
 .table code {
   font-size: 13px;
@@ -439,7 +455,7 @@ h4 code {
   color: #333;
 }
 .bs-docs-featurette-img:hover {
-  color: #337ab7;
+  color: #D3D3D3;
   text-decoration: none;
 }
 .bs-docs-featurette-img img {
@@ -773,7 +789,7 @@ h1[id] {
   background-color: #eee;
 }
 .color-swatches .brand-primary {
-  background-color: #337ab7;
+  background-color: #D3D3D3;
 }
 .color-swatches .brand-success {
   background-color: #5cb85c;
