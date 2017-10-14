@@ -11,12 +11,10 @@
 
   <title>taylorjamessmith</title>
 
-  <!-- Bootstrap core CSS -->
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-  <!-- Custom styles for this template -->
   <link href="jumbotron-narrow.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -53,9 +51,17 @@
         <div class="header clearfix">
           <nav>
             <ul class="nav nav-pills pull-right">
-              <li role="presentation" class="active"><a href="index.html">Music</a></li>
+              <li role="presentation" class="active"><a href="#">Music</a></li>
               <li role="presentation"><a href="movies.html">Movies</a></li>
-              <li role="presentation"><a href="life.html">Life</a></li>
+
+              <li class="dropdown">
+                <a href="sports.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sports <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#section1">Week 7 Preview</a></li>
+                  <li><a href="#section2">QB and RB Breakdown 2000-2016</a></li>
+                </ul>
+              </li>
+
               <li role="presentation"><a href="about.html">About Me </a></li>
             </ul>
           </nav>
@@ -65,7 +71,7 @@
 
         <!-- taylor start here -->
         <div class="date">
-        <p> August 8, 2017 </p>
+          <p> August 8, 2017 </p>
         </div>
         <div class="jumbotron">
           <h1>Everything Now Review</h1>

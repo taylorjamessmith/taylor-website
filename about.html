@@ -11,18 +11,13 @@
 
   <title>taylorjamessmith</title>
 
-  <!-- Bootstrap core CSS -->
+  
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
   <link href="jumbotron-narrow.css" rel="stylesheet">
-
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
   <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -46,22 +41,30 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation"><a href="index.html">Music</a></li>
-            <li role="presentation" ><a href="movies.html">Movies</a></li>
-            <li role="presentation"><a href="life.html">Life</a></li>
-            <li role="presentation" class="active"><a href="about.html">About Me </a></li>
+            <li role="presentation"><a href="movies.html">Movies</a></li>            
+            <li class="dropdown">
+              <a href="sports.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sports <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#section1">Week 7 Preview</a></li>
+                <li><a href="#section2">QB and RB Breakdown 2000-2016</a></li>
+              </ul>
+            </li>
+
+            <li role="presentation" class="active"><a href="#">About Me </a></li>
           </ul>
         </nav>
         <h3 class="text-muted">taylorjamessmith</h3>
-        </div>
+      </div>
 
-        <p>
-          This is my blog spot.  These reviews are my own.
-        </p>
+      <p>
+        This is my spot.  These articles and reviews are my own.
+      </p>
+      <a style="color:black;" href="https://twitter.com/BadBillFishing">@BadBillFishing</a>
 
-      </div> <!-- /container -->
+    </div> <!-- /container -->
 
 
-      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-      <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    </body>
-    </html>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+  </html>
