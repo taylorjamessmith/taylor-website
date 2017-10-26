@@ -12,34 +12,21 @@
   <title>taylorjamessmith</title>
 
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
   <link href="jumbotron-narrow.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
+
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-
+      
       <style>
-        div.jumbotron {
-          background: url('images/music/everythingNow.jpg');
-          width: 700px;
-          height: 300px;
-          border-radius: 5px;
-          color: white;
-          text-align: left;
-        }
 
-        div.jumbotron2 {
-          background: url('images/music/everythingNow.jpg');
-          width: 300px;
-          height: 150px;
-          border-radius: 5px;
-          color: white;
-          text-align: left;
-        }
 
         .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover, #topBtn:hover {
           background-color: #D3D3D3;
@@ -50,7 +37,6 @@
         .date {
           text-align: right;
         }
-
         #topBtn {
           display: none;
           position: fixed;
@@ -65,70 +51,368 @@
           padding: 15px;
           border-radius: 10px;
         }
-      </style>
 
+      </style>
     </head>
 
     <body>
-
     <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
       <div class="container">
         <div class="header clearfix">
           <nav>
-            <ul class="nav nav-pills pull-right">
-              <li role="presentation" class="active"><a href="#">Music</a></li>
-              <li role="presentation"><a href="movies.html">Movies</a></li>
-
-              <li class="dropdown">
-                <a href="sports.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sports <span class="caret"></span></a>
+            <ul class="nav nav-pills pull-right">  
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sports <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="sports.html#section2">Week 8 Preview</a></li>
-                  <li><a href="sports.html#section1">Week 7 Preview</a></li>
-                  <li><a href="sports.html#section0">QB and RB Breakdown 2000-2016</a></li>
+                  <li><a href="index.html#section3">Week 9 Bowl Projects</a></li>
+                  <li><a href="index.html#section2">Week 8 Preview</a></li>
+                  <li><a href="index.html#section1">Week 7 Preview</a></li>
+                  <li><a href="index.html#section0">QB and RB Breakdown 2000-2016</a></li>
                 </ul>
               </li>
 
+              <li role="presentation"><a href="music.html">Music</a></li>
               <li role="presentation"><a href="about.html">About Me </a></li>
+
             </ul>
           </nav>
           <h3 class="text-muted">taylorjamessmith</h3>
         </div>
 
-
-        <!-- taylor start here -->
-        <div class="date">
-          <p> August 8, 2017 </p>
+        <!-- Week 9 bowl projections -->
+        <div class="date" id="section3">
+          <p> October 25, 2017 </p>
         </div>
-        <div class="jumbotron hidden-xs col-sm-12 col-md-12 col-lg-12">
-          <h1>Everything Now Review</h1>
-          <p class="lead">Indie Rock Meets NYT Op-Ed</p>
-        </div>
-
-        <div class="jumbotron2 col-xs-12 hidden-sm hidden-md hidden-lg">
-          <h1>Everything Now Review</h1>
-          <p class="lead">Indie Rock Meets NYT Op-Ed</p>
+        <div class="jumbotron">
+          <h1>Week 9 Bowl Projections</h1>
         </div>
 
         <div class="row marketing">
-          <p> Arcade Fire lead singer Win Butler exhorts listeners to not “doubt his sincerity” on the track "Creature Comfort" from the band’s fifth full length album <em>Everything Now</em>.  However, it’s not Butler’s sincerity but rather his perceptivity and wit that is calling for scrutiny.   The band’s 2010 album <em>The Suburbs </em>was a self-conscious yet earnest exploration of cultural modernity.  It tackled well-tread ground- suburbia and familial strife, those playgrounds of New Yorker short stories- in an alluring, complex way while also being a great-sounding rock record.  Their newest work tries to be a kind of revised edition of <em>The Suburbs</em>, updated with insights on all the crazy and outlandish stuff that has been called “progress” over the last seven years.  Instead of matching their previous acuity, the band unfortunately settles for dry and predictable middle-aged commentary, which combined with an often-reckless sonic eclecticism makes for an unsteady record.
-          </p>
-          <p>
-            Musically, Everything Now shares the most blood with 2013’s <em>Reflektor</em>, both in its dance floor ambitions and its catholicity of influences.  The titular track and first single of the album is the highlight of the record with an ABBA-like piano setting the pace while an acoustic rhythm guitar reminiscent of <em>Funeral</em>’s “Haiti”, a lively string arrangement, hand-clapping, a choir, synths, and a pygmy flute turn up to prove the band is taking Everything Now quite literally. Despite this ocean of noises, the track works because each sound is given space to live within the song and the chorus melody is catchy as hell.   Through the rest of the album, the best and most interesting instrumentation (the Blaxploitation film-style bass line of “Signs of Life” and Daniel Lanois’ pedal steel guitar in “We Don’t Deserve Love” stand out as two of the most glaring examples) are crowded out by superfluous electro-beats or trite, repetitive choruses.   And the string sections, led by the gifted Sarah Neufeld, while being the most consistently pleasing element of <em>Everything Now</em>, too often feel like mere ornamentation.  
-          </p>
-          <p>
-            The only true monstrosity of the record is “Chemistry” a polka-disco disaster hooked up to a Billy Idol guitar riff in its chorus.  The song is comically bad and not aided by it’s somewhat creepy lyrical content in which Butler insists upon the existence of a romantic chemistry while at one point singing “Well you've got one choice, maybe two/You can leave with me or I'll go with you”.  Similarly unpalatable is the cognitive dissonance of “Good God Damn” as conga drums accompany an unsure religious awakening amidst banal considerations of suicide that can be described at best as platitudes.
-          </p>
-          <p>
-            Perhaps the most irritating aspect of <em>Everything Now</em>, though is the finger-wagging which pervades the lyrics.  Arcade Fire is intent on telling the listener that these are not the good ole’ days, that there is no way back to them, and that the only person to blame is yourself.  From the album intro “Everything_Now (continued)” stressing the elusiveness of home (“Can't make it back again/We can just pretend/We'll make it home again”) to quickly lost childhood innocence in “Put Your Money on Me” (“We were born innocent but it lasts a day”) to the consumer determinism (“All your money is already spent on it/All your money is already spent”) of “Infinite Content” the dominant motif of the album seems to be the absolute immutability of our modern condition   Our thirst for constant information and entertainment has gotten us here, the thinking goes, and now it’s time to reap what we’ve sown.  Aside from being a boring social analysis, <em>Everything Now</em> is deeply unsatisfying coming from a band which earlier in the decade was willing and able to delve into contemporary fixation and sensibility. 
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <p><b>New Orleans Bowl:</b> UTSA vs Troy</p>
+            <p><b>Cure Bowl:</b> Navy vs Appalachian State</p>
+            <p><b>Las Vegas Bowl:</b>  Arizona vs Fresno State</p>
+            <p><b>New Mexico Bowl:</b> Boise State vs North Texas</p>
+            <p><b>Camelia Bowl:</b>  Central Michigan vs South Alabama</p>
+            <p><b>Boca Raton Bowl:</b> Western Kentucky vs Utah State</p>
+            <p><b>Frisco Bowl:</b> New Mexico vs Louisiana Tech</p>
+            <p><b>Gasparilla Bowl:</b> Tulane vs Florida Atlantic</p>
+            <p><b>Bahamas Bowl:</b>  Florida International vs Western Michigan</p>
+            <p><b>Idaho Potato Bowl:</b> San Diego State vs Ohio</p>
+            <p><b>Birmingham Bowl:</b> SMU vs Southern Miss</p>
+            <p><b>Armed Forces Bowl:</b> Army vs Middle Tennessee</p>
+            <p><b>Dollar General Bowl:</b> Northern Illinois vs Arkansas State</p>
+            <p><b>Hawaii Bowl:</b> Houston vs Colorado State</p>
+            <p><b>Heart of Dallas Bowl:</b>  Marshall vs Utah</p>
+            <p><b>Quick Lane Bowl:</b> Indiana vs Toledo</p>
+            <p><b>Cactus Bowl:</b> Texas Tech vs UCLA</p>
+            <p><b>Independence Bowl:</b> Georgia Tech vs UCF</p>
+            <p><b>Pinstripe Bowl:</b>  Purdue vs Syracuse</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <p><b>Foster Farms Bowl:</b> Minnesota vs Arizona State</p>
+            <p><b>Texas Bowl:</b>  West Virginia vs Oregon</p>
+            <p><b>Miltary Bowl:</b>  Virginia vs Memphis</p>
+            <p><b>Camping World Bowl:</b>  NC State vs Iowa State</p>
+            <p><b>Holiday Bowl:</b>  Iowa vs Washington State</p>
+            <p><b>Alamo Bowl:</b>  Oklahoma vs Washington</p>
+            <p><b>Belk Bowl:</b> South Carolina vs Wake Forest</p>
+            <p><b>Sun Bowl:</b>  Louisville vs USC</p>
+            <p><b>Music City Bowl:</b> Mississippi State vs Virginia Tech</p>
+            <p><b>Arizona Bowl:</b>  Wyoming vs New Mexico State</p>
+            <p><b>Cotton Bowl:</b> Oklahoma State vs Notre Dame</p>
+            <p><b>TaxSlayer Bowl:</b>  Northwestern vs Kentucky</p>
+            <p><b>Liberty Bowl:</b>  Texas A&M vs Texas</p>
+            <p><b>Fiesta Bowl:</b> Stanford vs Wisconsin</p>
+            <p><b>Orange Bowl:</b> Miami vs Georgia</p>
+            <p><b>Outback Bowl:</b>  Michigan vs LSU</p>
+            <p><b>Peach Bowl:</b>  Clemson vs South Florida</p>
+            <p><b>Citrus Bowl:</b> Michigan State vs Auburn</p>
+            <p><b>Rose Bowl:</b> Ohio State vs TCU</p>
+            <p><b>Sugar Bowl:</b>  Alabama vs Penn State</p>
+            </div>
+        </div>
+
+
+        <!-- Week 8-->
+        <div class="date" id="section2">
+          <p> October 21, 2017 </p>
+        </div>
+        <div class="jumbotron">
+          <h1>Week 8 Preview</h1>
+          <p class="lead">Turn the damn NBA off.</p>
+        </div>
+
+        <div class="row marketing">
+          <h2>I Am An American Athletic Football Watcher </h2>
+          <p> 
+          Both directional Florida teams sitting atop the American Athletic East standings take to the road Saturday trying to keep their seasons perfect.  Central Florida heads to Annapolis for an afternoon showdown against Navy.  The Midshipmen should be playing with a hint of urgency/desperation as their remaining schedule includes road contests at Notre Dame and Houston as well as games versus surging SMU and Army squads.  The South Florida Bulls travel to Yulman Stadium to take on a surprising though inconsistent Tulane team.  A night game with wet conditions facing a decent team means USF will probably get its first real test of the season-their closest game thus far was a two-TD win against Stony Brook.  Look for these teams, both in the top five nationally in scoring margin, to face more of a challenge on Saturday.  
           </p>
         </div>
 
-        <!-- taylor stop here -->
-        <footer class="footer">
-         <p> site created by: danielle beckley</p>
-       </footer>
+        <div class="row marketing">
+          <h2>Ranked Teams Play Ranked Teams Sometimes</h2>
+          <p> 
+            Following a week with no-ranked matchups, two matchups of the AP's chosen ones are  on the docket .  19th ranked Michigan travels to Happy Valley to play number 2 Penn   State in a matchup that looked much sexier a month ago, before Wilton Speight was   injured and the Michigan offense ate itself.  Still, it will be intriguing to watch this Penn   State team play in a big game as a favorite-this time last year the Nittany Lions were  multiple TD underdogs against the Ohio States and Michigans of the world.  The other  ranked v. ranked action sees the number 11 USC Trojans visits South Bend to face 13th   ranked Notre Dame.  Important questions for this game include "Is Notre Dame actually   good?",  "Is USC actually bad?", and is "Sam Darnold physically capable of not turning  the ball over multiple times?".  This game has the chance to be inflection point for both   schools- all five of Notre Dames remaining games are degrees of losable while USC has   a relatively soft home stretch. 
+          </p>
+        </div>
 
-     </div> <!-- /container -->
+        <div class="row marketing">
+          <h2>Top-25 Schedule & Predictions</h2>
+          <b><p> 1. Alabama vs Tennessee (2:30 CBS): Alabama 41 Tennessee 7</p></b>
+          <b><p> 2. Penn State vs (15)Michigan (6:30 ABC): Penn State 20 Michigan 13</p></b>
+          <b><p> 6. Wisconsin vs Maryland (11:00 FOX): Wisconsin 42 Maryland 13</p></b>
+          <b><p> 7. TCU vs Kansas (7:00 FOX): TCU 35 Kansas 17</p></b>
+          <b><p> 8. Miami Florida vs Syracuse (2:30 ESPN): Miami FL 28 Syracuse 10</p></b>
+          <b><p> 9. Oklahoma State at Texas (11:00 ABC): Oklahoma 45 Texas 28</p></b>
+          <b><p> 10. Notre Dame vs (14)USC (6:30 NBC): Notre Dame 31 USC 21</p></b>
+          <b><p> 12. UCF at Navy (2:30 CBSSN): UCF 35 Navy 21</p></b>
+          <b><p> 13. Oklahoma at Kansas State (3:00 FOX): Oklahoma 31 Kansas State 20</p></b>
+          <b><p> 17. Virginia Tech vs North Carolina (2:30 ESPN2): Virginia Tech 28 North Carolina 20</p></b>
+          <b><p> 19. Auburn at Arkansas (6:30 SEINETWORK): Auburn 18 Arkansas 20</p></b>
+          <b><p> 20. Michigan State at Indiana (2:30 ABC): Michigan State 24 Indiana 27</p></b>
+          <b><p> 21. Washington State vs Colorado (9:45 ESPN): Washington State 26 Colorado 14</p></b>
+          <b><p> 22. South Florida at Tulane (6:00 ESPN2): South Florida 23 Tulane 17</p></b>
+          <b><p> 23. Mississippi State vs Kentucky (3:00 SEC Network): Mississippi State 31 Kentucky 14</p></b>
+          <b><p>24. Florida State vs Louisville (11:00 ESPN) Florida State 38 Louisville 21</p></b>
+          <b><p>25. LSU at Ole Miss (6:15 ESPN) LSU 36 Ole Miss 28</p></b>
+          
+        </div>
+
+
+        <div class="row marketing">
+          <h2>Here's What <b>The</b> Money is For </h2>
+          <ul>
+            <li> Oklahoma State covers (-7) at Texas</li>
+            <li>  North Carolina covers (+20.5) at Virginia Tech/li>
+            <li>  Indiana covers (+6.5) at Michigan State</li>
+            <li>  Mississippi State covers (-13) vs. Kentucky</li>
+            <li>  Arkansas covers (+15.5) vs. Auburn</li>
+            <li>  Washington State-Colorado under 52.5</li>
+            <li> UCF-Navy under 65</li>
+          </ul>
+        </div>
+
+        <div class="row marketing">
+        <h2>Last Week's Record</h2>
+        <ul>
+          <li>Top 25 Picks: 15-6</li>
+          <li>Average margin difference 14.6</li>
+          <li>vs the spread 4-3-1</li>
+        </ul>
+
+        <!-- Week 7-->
+        <div class="date" id="section1">
+          <p> October 13, 2017 </p>
+        </div>
+        <div class="jumbotron">
+          <h1>Week 7 Preview</h1>
+          <p class="lead">Storylines?Storylines.</p>
+        </div>
+
+        <div class="row marketing">
+          <h2>Good Teams Face Kind of Good Teams Away From Home </h2>
+          <p> A quartet of teams ranked between 10 and 21 in this week's AP poll head away from where the heart is to take on solid, top-50 competition.  10th ranked Auburn travels to Baton Rouge to face LSU, fresh off a badly needed win versus Florida that could be a semi-promising reset for the (purple) Tigers' season.  Number 12 Oklahoma meets up with Texas in Dallas for a little game called the Red River Shootout, as the Longhorns look to start 3-0 in Big 12 play for the first time in four seasons.  Michigan heads to Bloomington, squaring off with an Indiana team that beat a good(?) Virginia squad and gave Ohio State 30 minutes of scare opening night.   And Michigan's brother of undetermined age, Michigan State visits Minneapolis for a night game in the rain against Minnesota, a Big 10 football team.  
+          </p>
+        </div>
+
+        <div class="row marketing">
+          <h2>Group of Five Teams Are People Too </h2>
+          <p> Which non-Power 5 team will face an 11-2 Miami team in the Orange Bowl might  become a little more clear this weekend thanks to a few juicy matchups.   Lead  position in the AAC West is up for grabs as 25th ranked Navy travels to Memphis   on Saturday afternoon, in a game that should have lots and lots and lots of points.     Forget about Pac-12 After Dark (but still thank ESPN for airing the games) and catch  Boise State-San Diego State beat each other up for a few hours in pursuit of Mountain   West supremacy.  The game is important for both teams, as a win sets up San Diego   state with pretty, pretty good chances at finishing the regular season 12-0 while a loss  for Boise State would put them at 3-3 with difficult games against Wyoming and at   Colorado State remaining.  Also, keep track of how many points the explosive UCF  offense puts up against an East Carolina team allowing 47.8 points per game this year.  
+          </p>
+        </div>
+
+        <div class="row marketing">
+          <h2>Top-25 Schedule & Predictions</h2>
+          <b><p style="color:FireBrick;"> 1. Alabama vs Arkansas (6:15 ESPN): Alabama 45 Arkansas 13</p></b>
+          <b><p style="color:Crimson;"> 2. Clemson at Syracuse (Friday, 6:00 ESPN): Clemson 35 Syracuse 17</p></b>
+          <b><p style="color:Navy;"> 3. Penn State BYE</p></b>
+          <b><p style="color:FireBrick;"> 4. Georgia vs. Missouri (6:30 SEC Network): Georgia 48 Missouri 14</p></b>
+          <b><p style="color:Indigo;"> 5. Washington at Arizona (9:45 ESPN): Washington 41 Arizona 21</p></b>
+          <b><p style="color:BlueViolet;"> 6. TCU at Kansas State (11:00 FS1): Kansas State 27 TCU 21</p></b>
+          <b><p style="color:FireBrick;"> 7. Wisconsin vs. Purdue (2:30 Big Ten Network): Wisconsin 30  Purdue 13</p></b>
+          <b><p style="color:Crimson;"> 8. Washington State at California (Friday, 9:30 ESPN): Washington State 31 Cal 16</p></b>
+          <b><p style="color:FireBrick;"> 9. Ohio State at Nebraska (6:30 FS1): Ohio State 37 Nebraska 14</p></b>
+          <b><p style="color:Blue;"> 10. Auburn at LSU (2:30 CBS): Auburn 28 LSU 22</p></b>
+          <b><p style="color:GoldenRod;">11. Miami vs. Georgia Tech (2:30 ABC): Miami 35 Georgia Tech 31</p></b>
+          <b><p style="color:Black;">12 Oklahoma vs. Texas (2:30 ESPN): Oklahoma 42 Texas 27</p></b>
+          <b><p style="color:FireBrick;">13. USC vs. Utah (7:00 ABC): USC 35 Utah 10 </p></b>
+          <b><p style="color:Green;">14. Oklahoma State vs. Baylor  (2:30 FS1): Oklahoma State 52 Baylor 24</p></b>
+          <b><p style="color:DarkRed;">15. Virginia Tech BYE</p></b>
+          <b><p style="color:Blue;">16. Notre Dame BYE</p></b>
+          <b><p style="color:MidnightBlue;">17. Michigan at Indiana (11:00 ABC): Michigan 21 Indiana 13</p></b>
+          <b><p style="color:Green;">18. South Florida vs. Cincinnati (6:30 ESPNU): South Florida 44 Cincinnati 16</p></b>
+          <b><p style="color:FireBrick;">19. San Diego State vs. Boise State (9:30 CBSSN): Boise State 24 San Diego State 20</p></b>
+          <b><p style="color:FireBrick;">20. NC State at Pittsburgh (11:00 ACC Network): NC State 38 Pittsburgh 28</p></b>
+          <b><p style="color:DarkGreen;">21. Michigan State at Minnesota (7:00 Big Ten Network): Michigan State 20 Minnesota 9</p></b>
+          <b><p style="color:GoldenRod;">22. UCF vs. East Carolina (6:00 CBSSN): UCF 62 East Carolina 17</p></b>
+          <b><p style="color:Crimson;">23. Stanford vs. Oregon (10:00: Stanford 42 Oregon 30</p></b>
+          <b><p style="color:FireBrick;">24. Texas Tech at West Virginia (11:00 ESPNU): West Virginia 42 Texas Tech 37</p></b>
+          <b><p style="color:Navy;">25. Navy at Memphis (2:45 ESPNU):  Memphis 49 Navy 38 </p></b>
+        </div>
+
+
+        <div class="row marketing">
+          <h2>Here's What <b>The</b> Money is For </h2>
+          <ul>
+            <li> Florida State covers (-7) at Duke</li>
+            <li> Oklahoma covers (-8.5) vs. Texas</li>
+            <li> Georgia Tech-Miami over 52</li>
+            <li> Memphis covers (-3.5)  vs. Navy</li>
+            <li> UCF covers (-35) vs. East Carolina</li>
+            <li> Michigan State-Minnesota under 40.5</li>
+            <li> Boise covers (+6.5) and wins at +220</li>
+            <li> Oregon-Stanford over 55.5 </li>
+          </ul>
+        </div>
+
+
+
+
+        <!-- Week 7-->
+        <div class="date" id="section0">
+          <p> October 13, 2017 </p>
+        </div>
+        <div class="jumbotron">
+          <h1>QB and RB Breakdown 2000-2016</h1>
+          <p class="lead">Best Duo since Wayne and Garth</p>
+        </div>
+
+        <div class="row marketing">
+          <b><a style="color:black;" href="https://docs.google.com/spreadsheets/d/1WjC18ibtLLwW-_F22bgE9LW4r46K4U5B6r4j9XmAwO8/edit?usp=sharing">Click: link to my analysis of Top QB-RB Rushing Duos, 2000-2016</a></b>
+          <br>
+          <b><a style="color:black;" href="https://www.reddit.com/r/CFB/comments/75micn/top_qbrb_rushing_duos_20002016/">Click: link to reddit post with analysis of Top QB-RB Rushing Duos, 2000-2016</a>
+          </b>
+          <p>
+            This data is for non-triple options teams only (sorry Service Academies, GA Tech, and Eric Crouch) and was inspired by Bill Connelly asking for the best zone-read duo on Twitter today. The first sheet is single seasons and the second is career duos. For a duo to qualify, each had to run for over 500 yards in the specified season (for a single season) or in a season in the included range (for career). Also, only seasons in which both the RB and QB were starters or received a significant portion of the team's carries are included. For example, even though Fitzgerald Toussaint played in 2010 with Denard Robinson, he only carried the ball 8 times and thus can't really be said to have made up a QB-RB battery. All stats courtesy of sports-reference.com
+          </p>
+        </div>
+        <div class="row marketing">
+          <h2>#1 Northern Illinois, 2013 </h2>
+          <ul>
+            <li>QB Jordan Lynch-  292 rushes,  1920 yards, 23 TD</li>
+            <li>RB Cameron Stingily- 203 rushes, 1119 yards, 9 TD</li>
+            <li>Total-  495 rushes, 3039 yards, 32 TD</li>
+          </ul>
+          <p> 
+            The number one QB-RB rushing combo was powered by Husky quarterback Jordan Lynch's incredible season which earned him an invite to New York and a third place Heisman finish.  Lynch set the NCAA single-game QB rushing record twice  with games of 316 and 321 yards.  Cameron Stingily supplied solid, if fluctuating (only three games over 100 yards), production from the running back position.  The Huskies averaged nearly 40 points a game on their way to a 12-0 regular season before losing the MAC Championship to Bowling Green and in the Poinsettia Bowl against Utah State.   
+          </p>
+          <br>
+
+          <h2>#2 Nevada, 2012 </h2>
+          <ul>
+            <li>QB Cody Fajardo- 190 rushes, 1121 yards, 12 TD</li>
+            <li>RB Stefphon Jefferson- 375 rushes, 1883 yards, 24 TD </li>
+            <li>Total- 565 rushes, 3004 yards,  36 TD</li>
+          </ul>
+          <p> 
+            It is fitting that such a prolific duo was the product of legendary coach Chris Ault's final season at Nevada.  Running back Stefphon Jefferson was a  workhorse averaging over 28 carries per game with five games of 32 or more carries.  Sophomore Cody Fajardo, who would go on to accumulate 3,482 career rushing yards,  averaged close to six yards per carry and tallied a career best for rushing yards in a season.  
+          </p>
+          <br>
+
+          <h2>#3 West Virginia, 2006 </h2>
+          <ul>
+            <li>QB Pat White- 165 rushes, 1219 yards, 18 TD</li>
+            <li>RB Steve Slaton- 248 rushes, 1744 yards, 16 TD</li>
+            <li>Total- 413 rushes, 2963 yards, 34 TD</li>
+          </ul>
+          <p> 
+            Ask  a college football fan for the best quarterback-running back rushing combo ever and there is a good chance they will answer Pat White and Steve Slaton.  During their stunningly productive careers,  the Mountaineers' pair  had their most successful single season in 2006 as sophomores.   Slaton averaged over eight  yards a carry in six different contests while White recorded multiple four touchdown games.   Combined, the duo scored touchdowns on over eight percent of their carries en route to the nation's third best scoring offense and a top-ten AP Poll finish for Rich Rodriguez' burgeoning West Virginia program. 
+
+          </p>
+          <br>
+
+          <h2>#4 Kansas State, 2003 </h2>
+          <ul>
+            <li>QB Ell Roberson- 227 rushes, 975 yards, 15 TD</li>
+            <li>RB Darren Sproles- 306 rushes, 1986 yards 16 TD</li>
+            <li>Total- 533 rushes, 2961 yards, 31 TD</li>
+          </ul>
+          <p> 
+            Bill Snyder and the Kansas State coaching staff created an intriguing amalgam of early read-option concepts and traditional I-formation running plays to unleash a huge season from the shifty Roberson and the explosive Sproles.   During a year in which he gained 2,735 total yards, Sproles had his best games at the biggest moments; he ran for 140 yards against Nebraska to secure the Big-12 North title and gashed number one Oklahoma for 235 yards in the Purple Cats' 35-7 shellacking of the undefeated Sooners in the  Big 12 Championship game . Roberson was a consistent complement to Sproles' electricity, scoring multiple rushing TDs in five games.  
+          </p>
+          <br>
+
+          <h2>#5 Texas, 2004 </h2>
+          <ul>
+            <li>QB Vince Young- 167 rushes, 1079 yards, 14 TD</li>
+            <li>RB Cedric Benson- 326 rushes, 1834 yards, 22 TD</li>
+            <li>Total- 493 rushes, 2913 yards, 36 TD</li>
+          </ul>
+          <p> 
+            Featuring Young, the 2005 Heisman runner-up and 3rd overall pick in the 2006 NFL Draft, and Benson, 6th place Heisman finish in 2004 and 4th overall pick in 2005 Draft, this Texas backfield is one of the most decorated in college football history.  A year after the Roberson-Sproles combo ran through the league, Big-12 defenses had to deal with the Young-Benson battery averaging 242 yards per game on the ground.  In his senior season, Benson was a model of consistency, rushing for over 150 yards eight times.  Young improved as the season went on and his 21 carry, 192 yard, and 4 touchdown performance against Michigan in the Rose Bowl remains one of the greatest bowl performances of all-time. 
+
+          </p>
+          <br>
+
+          <h2>#6 Auburn, 2013 </h2>
+          <ul>
+            <li>QB Nick Marshall- 172 rushes, 1068 yards, 12 TD</li>
+            <li>RB Tre Mason- 317 rushes, 1816 yards, 23 TD</li>
+            <li>Total- 489 rushes, 2884 yards, 35 TD</li>
+          </ul>
+          <p> 
+            This pair's massive production was as surprising as Auburn's remarkable run to the 2013 BCS National Championship game as  Marshall was a junior college transfer and Mason found himself stuck in a running back by committee situation for the first few games of the season.  The two picked up steam as the season progressed, perfecting coach Gus Malzahn's attack in his first year as Auburn's head coach.   Marshall and Mason combined for 1,670 yards and 21 TDs in Auburn's final six games, including unforgettable victories over Georgia and Alabama and a heartbreaking loss to Florida State in the title game.  
+          </p>
+          <br>
+
+          <h2>#7 Arizona, 2013 </h2>
+          <ul>
+            <li>QB B.J. Denker- 181 rushes, 949 yards, 13 TD</li>
+            <li>RB Ka’Deem Carey- 349 rushes, 1885 yards,  19 TD</li>
+            <li>Total- 530 rushes, 2834 yards, 32 TD</li>
+
+          </ul>
+          <p> 
+            Like the White-Slaton duo, the Denker-Carey couplet put up impressive numbers in a Rich Rodriguez offense.  Carey followed up his great 2012 campaign (1929 yards, 23 TDs) with another strong season which included a 48 carry, 4 touchdown performance in a 42-16 upset of fifth ranked Oregon.  B.J. Denker took advantage of his only full season as the Wildcat starting quarterback, averaging over five yards per carry and ranking fifth nationally in QB rushing yards.  
+          </p>
+          <br>
+
+          <h2>#8 Ohio State, 2014 </h2>
+          <ul>
+            <li>QB J.T. Barrett- 171 rushes, 938 yards, 11 TD</li>
+            <li>RB Ezekiel Elliot- 273 rushes, 1878 yards, 18 TD</li>
+            <li>Total- 440 rushes, 2816 yards, 29 TD</li>
+          </ul>
+          <p> 
+           The only pair in the top ten to power its team to a national championship,  the Barrett-Elliot backfield resembled Auburn's Marshall-Mason in their improvement as the season progressed.  After struggling on the ground the first three games of the year, Barrett averaged 90 yards and a touchdown per game over his last 9 contests.  When Barrett broke his ankle in the last regular season game against Michigan, Elliot elevated his game racking up  a combined 696 yards and 8 TDs in the Big Ten Championship Game, College Football Playoff Semifinal, and National Championship game to lead the Buckeyes to their first national title since 2002.  
+         </p>
+         <br>
+
+         <h2>#9 Nevada, 2010 </h2>
+         <ul>
+          <li>QB Colin Kaepernick- 173 rushes, 1206 yards, 20 TD</li>
+          <li>RB Vai Taua- 284 rushes, 1610 yards, 19 TD</li>
+          <li>Total- 457 rushes, 2816 yards, 39 TD</li>
+        </ul>
+        <p> 
+         The 2010 edition of the Kaepernick-Taua combo was the final and most productive version of this century's most prolific QB-RB rushing duo.  Both players recorded career highs for rushing yards and rushing touchdowns in a season.  Kaepernick maintained a seven yard per carry average over the entire season while Taua managed six games of over 130 yards on the ground.  The 2010 season also was a high-water mark for the Nevada program, as the team went 13-1 and upset third ranked Boise State in their home finale.  
+       </p>
+       <br>
+
+
+       <h2>#10 South Florida, 2016 </h2>
+       <ul>
+        <li>QB Quinton Flowers- 198 rushes, 1530 yards, 18 TD</li>
+        <li>RB Marlon Mack- 174 rushes, 1187 yards, 15 TD</li>
+        <li>Total- 372 rushes, 2717 yards, 33 TD</li>
+      </ul>
+      <p> 
+       The most recent tandem in the top ten also has a strong argument as its most efficient.  The Flowers-Mack combination racked up over 2700 yards on an incredible 7.3 yard per carry average, leading the USF team to an impressive 11-2 record.  Mack was as dependable as would be expected for a career 3000 yard rusher, notching a rushing TD game in eleven of the Bulls' twelve games.  Flowers had a monstrous second half, gaining 1032 yards with an 8.6 yard per carry average over the season's last seven games.   
+     </p>
+     <br>
+
+
+   </div>
+
+
+
+   <footer class="footer">
+     <p> site created by: danielle beckley</p>
+   </footer>
+
+ </div> <!-- /container -->
 
       <script>
       window.onscroll = function() {scrollFunction()};
@@ -145,5 +429,9 @@
           document.documentElement.scrollTop = 0;
       }
       </script>
-   </body>
-   </html>
+
+
+ <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+ <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
