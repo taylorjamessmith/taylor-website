@@ -12,12 +12,9 @@
   <title>taylorjamessmith</title>
 
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
   <link href="jumbotron-narrow.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
-
-  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,7 +23,24 @@
       <![endif]-->
       
       <style>
+         div.jumbotronBowl {
+          background: url('images/sports/glass-bowl.jpg');
+          width: 700px;
+          height: 300px;
+          border-radius: 5px;
+          color: Navy;
+          text-align: left;
+          font-size: 45px;
+        }
 
+        div.jumbotron2Bowl {
+          background: url('images/sports/glass-bowl.jpg');
+          width: 300px;
+          height: 150px;
+          border-radius: 5px;
+          color: navy;
+          text-align: left;
+        }
 
         .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover, #topBtn:hover {
           background-color: #D3D3D3;
@@ -84,7 +98,11 @@
         <div class="date" id="section3">
           <p> October 25, 2017 </p>
         </div>
-        <div class="jumbotron">
+       <div class="jumbotronBowl jumbotron hidden-xs col-sm-12 col-md-12 col-lg-12">
+          <h1>Week 9 Bowl Projections</h1>
+        </div>
+
+        <div class="jumbotron2Bowl col-xs-12 hidden-sm hidden-md hidden-lg">
           <h1>Week 9 Bowl Projections</h1>
         </div>
 
@@ -429,9 +447,5 @@
           document.documentElement.scrollTop = 0;
       }
       </script>
-
-
- <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
