@@ -1,0 +1,56 @@
+<!-- Week 1 Preview -->
+        <div class="date" id="section7">
+          <p> September 1, 2018 </p>
+        </div>
+        <div class="jumbotron">
+          <h1>Week 1 Preview</h1>
+          <p class="lead"><em>College Football Saturdays are my Happy Days.</em></p>
+        </div>
+
+      <div class="row marketing">
+          <h2>Top-25 Schedule & Predictions</h2>
+         <table class="table table-condensed">
+          <thead>
+            <tr>
+              <th>Matchup</th>
+              <th>Television</th>
+              <th>Prediction</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr><td>1 Alabama vs Louisville</td><td> 7:00 ABC</td><td>Alabama 42 Louisville 21</td></tr>
+            <tr><td>2 Ohio State vs Oregon State</td><td>  11:00 ABC </td><td>Ohio State 34 Oregon State 10</td></tr>
+            <tr><td>3 Clemson vs Furman</td><td>   11:20 ACC Network </td><td>Clemson 44 Furman 0</td></tr>
+            <tr><td>4 Georgia vs Austin Peay</td><td>  2:30 ESPN </td><td> Georgia 35 Austin Peay 3</td></tr>
+            <tr><td>5 Washington vs 6 Auburn</td><td>  2:30 ABC </td><td> Washington 27 Auburn 17</td></tr>
+            <tr><td>7 Penn State vs Appalachian State</td><td> 2:30 Big Ten Network</td><td> Penn State 35 Appalachian State 24</td></tr>
+            <tr><td>8 Oklahoma vs 21 Florida Atlantic</td><td>  11:00 FOX </td><td> Oklahoma 41 Florida Atlantic 31</td></tr>
+            <tr><td>9 Notre Dame vs 11 Michigan </td><td> 6:30 NBC </td><td> Notre Dame 30 Michigan 27</td></tr>
+            <tr><td>12 Miami FL vs 16 LSU</td><td> 6:30 ESPN (SUN)</td><td> LSU 31 Miami FL 12</td></tr>
+            <tr><td>14 USC vs UNLV</td><td> 3:00 PAC 12 Network  </td><td>USC 40 UNLV 20</td></tr>
+            <tr><td>17 Mississippi State vs Stephen F Austin</td><td> 6:30 ESPNU </td><td> Mississippi State 41 Stephen F Austin 10</td></tr>
+            <tr><td>19 TCU vs Southern </td><td> 11:00 </td><td> TCU 49 Southern 0</td></tr>
+            <tr><td>20 Texas vs Maryland</td><td> 11:00 FS1  </td><td> Texas 21 Maryland 3</td></tr>
+            <tr><td>24 Boise State at Troy </td><td> 5:00 ESPNU  </td><td>Boise State 41 Troy 23</td></tr>
+            <tr><td>15 TCU vs Texas Tech  </td><td>11:00 </td><td> TCU 37 Texas Tech 34</td></tr>
+            <tr><td>17 Mississippi State at Arkansas  </td><td>11:00 CBS </td><td> Mississippi State 38 Arkansas 30</td></tr>
+            <tr><td>20 LSU at Tennessee </td><td>6:00 ESPN </td><td> LSU 23 Tennessee 9</td></tr>
+            <tr><td>21 Memphis vs SMU</td><td> 11:00 ESPNews </td><td> SMU 34 Memphis 31</td></tr>
+            <tr><td>22 Virginia Tech vs Pittsburgh </td><td> 11:20 ACCNetwork </td><td> Virginia Tech 31 Pittsburgh 13</td></tr>
+            <tr><td>23 Stanford vs California </td><td>7:00 FOX </td><td> Stanford 21 Cal 10</td></tr>
+            <tr><td>24 Boise State vs Air Force</td><td> 9:15 ESPN2</td><td> Boise State 37 Air Force 17</td></tr>
+          </tbody>
+        </table>
+
+        <div class="row marketing">
+          <h2>Here's What <b>The</b> Money is For </h2>
+            <ul>
+              <li>Illinois covers -16.5 vs Kent State</li>
+              <li>Texas State covers +16.5 vs Rutgers</li>
+              <li>Coastal Carolina covers -29.5 vs South Carolina/li>
+              <li>UNC (+240) wins vs Cal</li>
+              <li>South Alabama (+320) wins vs Louisiana Tech</li>
+              <li>Notre Dame vs Michigan over 46.5</li>
+          </ul>
+        </div>
