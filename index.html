@@ -19,6 +19,7 @@
   <script src="dist/js/scroll.js"></script>
   <script> 
     $(function(){
+      $("#2018week3preview").load("content/sports/2018week3preview.html");
       $("#2018week1preview").load("content/sports/2018week1preview.html");
       $("#week12preview").load("content/sports/week12preview.html");
       $("#week11preview").load("content/sports/week11preview.html");
@@ -31,6 +32,16 @@
     });
   </script>
 
+ <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+    $( document ).ready(function() {
+        console.log( "document loaded" );
+    });
+ 
+    $( window ).on( "load", function() {
+        console.log( "window loaded" );
+    });
+    </script>
 
 </head>
 
@@ -44,6 +55,7 @@
           <li class="dropdown active">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sports <span class="caret"></span></a>
             <ul class="dropdown-menu">
+              <li><a href="index.html#section9">Week 3 Preview </a></li>
               <li><a href="index.html#section8">Week 1 Preview </a></li>
               <li class="divider"></li>
               <li><a href="index.html#section7">Week 12 Preview </a></li>
@@ -67,6 +79,7 @@
       <h3 class="text-muted"><a href="https://taylorjamessmith.github.io">taylorjamessmith</a></h3>
     </div>
     
+    <div id="2018week3preview"></div>
     <div id="2018week1preview"></div>
     <div id="week12preview"></div>
     <div id="week11preview"></div>
